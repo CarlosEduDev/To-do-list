@@ -22,9 +22,9 @@ function mostrarTasks(){
    minhaListaTasks.forEach((item, position) => {
 
       newLi = newLi + `<li class="task ${item.concluida && "done"}">
-      <img src="./img/checked.png" alt="Check-tarefa" onclick="concluirTask(${position})">
+      <img src="./checked.png" alt="Check-tarefa" onclick="concluirTask(${position})">
       <p>${item.task}</p>
-      <img src="./img/trash.png" alt="imagem de lixeira" onclick="deleteItem(${position})">
+      <img src="./trash.png" alt="imagem de lixeira" onclick="deleteItem(${position})">
    </li>`
    })
 
